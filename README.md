@@ -69,3 +69,7 @@ sudo bower install --allow-root
 http-server -p 8443 -S -C keys/server.crt -K keys/server.key
 
 ```
+# Add modules
+https://doc-kurento.readthedocs.io/en/stable/features/kurento_modules.html
+https://doc-kurento.readthedocs.io/en/stable/user/writing_modules.html
+https://meetrix.io/blog/webrtc/kurento/creating-an-opencv-filter-for-kurento-media-server.html
