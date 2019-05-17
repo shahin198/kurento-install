@@ -69,6 +69,29 @@ sudo bower install --allow-root
 http-server -p 8443 -S -C keys/server.crt -K keys/server.key
 
 ```
+The server includes service files which integrate with the Ubuntu init system, so you can use the following commands to start and stop it:
+```
+sudo service kurento-media-server start
+sudo service kurento-media-server stop
+```
+
+
+Check your installation
+
+To verify that KMS is up and running, use this command and look for the kurento-media-server process:
+```
+ps -ef | grep kurento-media-server
+```
+> nobody  1270  1  0 08:52 ?  00:01:00  /usr/bin/kurento-media-server
+
+Unless configured otherwise, KMS will open the port 8888 to receive requests and send responses by means of the Kurento Protocol. Use this command to verify that this port is listening for incoming packets:
+```
+sudo netstat -tupan | grep kurento
+```
+> tcp6  0  0 :::8888  :::*  LISTEN  1270/kurento-media-server
+
+
+
 # Writing Kurento Modules
 https://doc-kurento.readthedocs.io/en/stable/features/kurento_modules.html
 
