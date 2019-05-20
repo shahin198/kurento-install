@@ -98,3 +98,5 @@ https://doc-kurento.readthedocs.io/en/stable/features/kurento_modules.html
 https://doc-kurento.readthedocs.io/en/stable/user/writing_modules.html
 
 https://meetrix.io/blog/webrtc/kurento/creating-an-opencv-filter-for-kurento-media-server.html
+# help line
+https://doc-kurento.readthedocs.io/en/6.9.0/features/security.html
