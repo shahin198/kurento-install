@@ -114,3 +114,4 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 ```
 mvn -U clean spring-boot:run -Dkms.url=ws://10.200.10.78:8888/kurento
 ```
+https://doc-kurento.readthedocs.io/en/stable/tutorials/java/tutorial-metadata.html
