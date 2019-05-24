@@ -103,9 +103,14 @@ https://doc-kurento.readthedocs.io/en/6.9.0/features/security.html
 
 http://builds.kurento.org/dev/master/latest/docs/faq.html
 
+# Java tutorial
+https://doc-kurento.readthedocs.io/en/stable/tutorials/java/tutorial-one2many.html
 # Java Patha
 ```
 readlink -f $(which java)
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
+```
+```
+mvn -U clean spring-boot:run -Dkms.url=ws://10.200.10.78:8888/kurento
 ```
