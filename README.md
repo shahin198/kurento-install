@@ -102,3 +102,10 @@ https://meetrix.io/blog/webrtc/kurento/creating-an-opencv-filter-for-kurento-med
 https://doc-kurento.readthedocs.io/en/6.9.0/features/security.html
 
 http://builds.kurento.org/dev/master/latest/docs/faq.html
+
+# Java Patha
+```
+readlink -f $(which java)
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+
+```
